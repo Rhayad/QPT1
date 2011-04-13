@@ -1,0 +1,30 @@
+.hintbox_list_container ul {
+	background-color: #FFFFFF;
+	width: 200px; 
+	padding: 0;
+	margin: 0;
+	border: 1px solid #7F9DB9;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.hintbox_list_container ul li {
+	line-height: 16px;
+	margin: 0;
+	padding: 1px 1px 1px 3px;
+	border: 0;
+}
+
+
+.hintbox_input {
+	margin: 0;
+	padding: 1px 18px 1px 4px; 
+	width: 160px;
+	border: 1px solid #7F9DB9;
+}
+
+.hintbox_loading {
+	background: url(../img/ajax-loader.gif) no-repeat center right;
+}

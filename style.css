@@ -1,0 +1,439 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	font-family:"Trebuchet MS", Arial, Georgia, "Times New Roman", serif; 
+	font-size:10px;
+	background-color:#fcf7f2; 
+	color:#754c30; 
+}
+
+
+
+#loginhead {
+	background-image:url(images/logo.jpg);
+	background-repeat:no-repeat;
+	border:2px solid #fcf7f2;
+	border-bottom:2px solid #ce9f7f;
+    margin:30px auto 0 auto;
+	height:110px;
+	width:950px;
+}
+
+#loginheadnavi {
+	border:0px solid #ce9f7f;
+	height:15px;
+	width:300px;
+	margin:95px 0 0 630px;
+	text-align:right;
+}
+
+#loginheadnavi li {
+    width:70px;
+    list-type:none;
+    display:block;
+    float:left;
+	margin:0 0 0 5px;
+}
+
+#main {
+	border:0px solid #ce9f7f;
+	min-height:500px;
+    width: 950px;
+	margin:10px auto;
+	clear:both;
+}
+
+#mainnavi {
+	border:0px solid #ce9f7f;
+	width:130px;
+	min-height:500px;
+	padding:20px 0;
+	float:left;
+}
+
+#mainnavi li {
+	margin:0 0 0 10px;
+	list-style:none;	
+}
+
+#mainnavi li ul {
+	margin:0 0 0 10px;
+	list-style:none;	
+}
+
+#maintext {
+	border:0px solid #ce9f7f;
+	padding:15px 0 0 0;
+	}
+	
+#maintext ul li {
+	margin:0 0 5px 0;
+	}
+	
+#maintext ul li ul li {
+	margin:0 0 0 30px;
+	list-style:circle;
+	}
+
+#maintext p {
+	text-align:justify;
+	margin:5px 20px;
+}
+
+#maininbox {
+	border:0px solid #ce9f7f;
+	width:650px;
+	min-height:500px;
+	float:left;
+}
+
+#maininbox tr {
+	height:130px;
+}
+
+#maininbox td {
+	width:310px;
+	border-top:1px solid #754c30;
+	text-align:center;
+}
+
+#maininbox ul {
+	margin:0 0 0 0;	
+}
+
+#maininbox ul li ul li p {
+	display:inline;
+	font-style:italic;
+	text-decoration:underline;
+}
+
+#maininbox ul li ul {
+	 margin:0;
+	 list-style:none; 
+	 text-align:left;
+}
+
+#maininbox h1, h2, h3 {
+	margin:5px 5px;	
+}
+
+#maininbox h1 {
+	padding:0 0 10px 0;
+}
+
+#aktueller_artikel h2, #warenkorb h2 {
+	margin:5px 0;
+}
+
+#profil {
+	border:0px solid #ce9f7f;
+	margin:20px auto;
+	padding:10px 0;
+	width:380px;
+}
+
+#profil h3, #maininbox h3 {
+	font-weight:normal;
+	text-align:center;
+	padding:0 0 10px 0;
+}
+
+#profil p {
+	text-align:center;
+}
+
+#profil h4 {
+	text-decoration:underline;
+	font-size:14px;
+	text-align:center;
+	margin:25px 0 5px 0;
+}
+ 
+#aktueller_artikel {
+	width:160px;
+	min-height:150px;
+	border:0px solid #ce9f7f;
+	float:left;
+}
+
+#preis {
+	width:160px;
+	min-height:50px;
+	border:0px solid #ce9f7f;
+	float:left;
+}
+
+#warenkorb {
+	width:160px;
+	height:300px;
+	border:0px solid #ce9f7f;
+	float:left;
+}
+
+#foot {
+	width:950px;
+    margin:20px auto;
+    border-top:2px #ce9f7f solid;
+    clear:both;
+}
+
+#foot li {
+	text-align:center;
+    min-width:50px;
+    list-type:none;
+    display:block;
+    float:left;
+	margin:0 0 0 5px;
+}
+
+.produktnavi li {
+	float:left;
+	margin:11px 10px 0 0;
+	list-style:none;
+}
+
+
+
+
+#inhalt {
+	height:550px;
+	width:650px;
+	border:0px solid #ce9f7f;
+}
+
+#inhalt li {
+	list-style:none;
+	float:left; 
+	height:104px;
+	width:104px;
+	border:1px solid #754c30; 
+	margin:10px 0 13px 43px; 
+	padding:1px; 
+}
+
+#inhalt li img {
+	border:2px solid #754c30; 
+}
+
+#galerieseitenzahl {
+	margin:0 auto;
+	height:15px; 
+	border: 0px solid #754c30;
+	width:80px; 
+}
+
+#galerieseitenzahl li {
+	list-style:none;
+	font-size:10px;
+	float:left;
+	margin:0 auto;
+	width:20px;
+	height:15px; 
+	text-align:center; 
+	line-height:15px;
+}
+
+.img:hover {
+	list-style:none;
+	float:left; 
+	height:104px;
+	width:104px;
+	border:1px solid #fff; 
+	margin:9px -1px 12px 42px; 
+	padding:2px; 
+}
+
+.nodisplay {
+	display:none; 
+}
+
+
+
+
+
+
+
+#lbOverlay {
+	position:fixed;
+	z-index:9999;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:#754c30;
+	cursor:pointer; 
+}
+
+#lbCenter {
+	position:absolute;
+	z-index:9999;
+	overflow:hidden;
+	background-image:url(img/dropbg.png); 
+}
+
+#lbBottomContainer {
+	position:absolute;
+	z-index:9999;
+	overflow:hidden; 
+}
+
+.lbLoading {
+	background:url(images/loading.gif) no-repeat center; 
+}
+
+#lbImage {
+	position: absolute;
+	left:0;
+	top:0;
+	border:5px solid #4c2c16;
+	background-repeat:no-repeat; 
+}
+
+#lbPrevLink, #lbNextLink {
+	display:block;
+	position:absolute;
+	top:0;
+	width:50%;
+	outline:none; 
+}
+
+#lbPrevLink {
+	left:0; 
+}
+
+#lbPrevLink:hover {
+	background:transparent url(images/prev.png) no-repeat 0 95%; 
+}
+
+#lbNextLink {
+	right:0; 
+}
+
+#lbNextLink:hover {
+	background:transparent url(images/next.png) no-repeat 100% 95%; 
+}
+
+#lbBottom {
+	font-family:"Trebuchet MS", Arial, Georgia, "Times New Roman", serif;
+	font-size:10px;
+	color: #fcf7f2;
+	line-height:1.4em;
+	text-align:left;
+	border:5px solid #4c2c16;
+	border-top-style:none; 
+	padding:3px 0 3px 5px; 
+}
+
+#lbCloseLink {
+	display:block;
+	float:right;
+	width:66px;
+	height:22px;
+	background:transparent url(images/close.png) no-repeat center;
+	margin:5px 0;
+	outline:none; 
+}
+
+#lbCaption, #lbNumber {
+	margin-right:71px; 
+}
+
+#lbCaption {
+	font-weight:bold; 
+}
+
+
+
+
+a {
+	color:#754c30;; 
+	outline:none;
+	text-decoration:none; 
+}
+
+a:hover {
+	color:#d3c1b3;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#754c30;
+}
+
+a img {
+	border:2px solid #color:#754c30;; 
+}
+
+.aartikel {
+	font-style:italic;
+	text-decoration:underline;
+}
+
+.auswahl {
+	padding:0 0 0 150px;
+	text-align:left;
+}
+
+.stern {
+	font-size:12px;
+	color:#f00;
+}
+
+.galerietext {
+	text-align:justify;
+	margin:10px;
+}
+
+.artikelbilder {
+	list-style:none;
+	float:left; 
+	height:104px;
+	width:104px;
+	border:1px solid #754c30; 
+	margin:10px 0 13px 43px; 
+	padding:1px;
+}
+
+.artikelbilder1 {
+	list-style:none;
+	float:left; 
+	height:104px;
+	width:104px;
+	border:1px solid #754c30; 
+	margin:0 110px; 
+	padding:1px;
+}
+
+form {
+    display:inline;
+}
+
+form input {
+	margin:0 auto;
+}
+
+form label.leftcol, form span.leftcol {
+  float:left;
+  display: block;
+  text-align:right;
+  width:150px;
+  min-height: 10px;
+  padding-right: 10px;
+}
+
+form p {
+  margin: 3px 0px;
+  padding: 3px 0px;
+}
+
+form p.submitblock {
+  margin-left:210px;
+}
+
+table ul {
+	list-style:none;
+}
+

@@ -1,0 +1,17 @@
+Herr
+Frau
+Prof.
+Prof.Dr.
+Dr.
+Mag.
+Dir.
+Dipl.Ing.
+HR
+MA
+MSc
+StR
+Univ.Prof.
+
+BA
+BSc
+PhD
